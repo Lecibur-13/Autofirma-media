@@ -15,6 +15,12 @@ Contiene la estructura de archivos necesarios para:
 - Almacenar la **Autoridad Certificadora (CA.pem)**
 - El **logo** para personalizar la aplicación Autofirma
 
+### `jre.zip`
+Contiene el **JRE (Java Runtime Environment)** de Java. Este archivo es necesario para evitar problemas de compatibilidad con la versión de Java requerida por el ejecutable de Autofirma. Incluye el entorno de ejecución completo para garantizar que la aplicación funcione correctamente sin depender de la versión de Java instalada en el sistema.
+
+### `launch4j.zip`
+Contiene **Launch4j**, una herramienta multiplataforma para empaquetar archivos JAR de Java en ejecutables EXE para Windows. Esta herramienta permite convertir aplicaciones Java en archivos ejecutables nativos de Windows, facilitando la distribución y ejecución de Autofirma sin necesidad de que el usuario tenga conocimientos técnicos sobre Java.
+
 ## 🔧 Scripts Disponibles
 
 ### `01_create_ca.sh`
